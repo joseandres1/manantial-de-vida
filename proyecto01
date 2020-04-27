@@ -1,0 +1,269 @@
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+}
+
+#logo{
+   width: 200px;
+   height: 100px;
+   border: 0px solid #000;
+   float: left;
+}
+
+.titulo{
+
+	font-size: 25px;
+}
+
+.sub-titulo{
+
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.menu{
+	width: 470px;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 40px;
+	background: #006699;
+}
+
+.menu ul{}
+
+.menu ul li{
+     list-style: none;
+     float: left;
+
+     }
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+	color: #fff;
+}
+
+.menu ul li a:hover{ 
+
+	  background: #fff;
+	  color: #006699;
+	  transition: background 1s, color 1s;
+
+ }
+
+
+#slide{
+
+	margin-top: -5px;
+	width: 900px;
+	height: 250px;
+}
+
+#categorias{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border:  0px solid; 
+	margin-top: 10px;
+
+
+}
+
+
+.uno{
+
+width:  280px;
+height: auto; overflow: hidden;
+border:  1px solid #ccc;
+margin-top: -3px;
+float: left;
+padding: 5px;
+text-align: center;
+color: #4682b4;
+
+
+}
+
+.parrafo{
+
+	color: #707070;
+	text-align: justify;
+}
+
+.dos{
+	margin-left: 50px;
+	margin-right: 50px;
+
+
+}
+
+.leer-mas{
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+	margin:  10px;
+
+
+}
+.leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+#info{
+	width: 900px;
+    height: auto; overflow: hidden;
+    border: 0px solid #c0c0c0;
+    margin: top: 10px;
+
+
+}
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float:left;
+	padding: 5px; color: #4682b4;
+
+}
+
+.img{
+
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+
+
+}
+
+#footer{
+
+	width: 900px;
+	height: 100px;
+	text-align: center;
+}
+#footer  p{
+     width: 500px;
+}<!DOCTYPE html>
+<html>
+    <head>
+    	<title></title>
+    	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+    </head>
+    <body>
+    	<div id="principal">
+    		<header>
+    			<div id="logo">
+
+    		        <h2 class="titulo">manantial de vida</h2>
+    		        <p class="sub-titulo">con jesucristo todo lo puedo</p>
+    			</div>
+
+    			<nav class="menu">
+    				<ul>
+    					<li><a href="">inicio</a></li>
+    					<li><a href="">nosotros</a></li>
+    					<li><a href="">servicios</a></li>
+    					<li><a href="">donaciones</a></li>
+    				    <li><a href="">direccion</a></li>
+    				</ul>
+    			</nav>
+      		</header>
+
+      		<section id="slide">
+      			<img src="img/jose1.jpg" width="900" height="250">
+      			
+      		</section>
+
+      		<section id="categorias">
+      			<section class="uno">
+      				
+      				<img src="img/jose.jpg" width=" 250" height="150" >
+      				<h2>devocional</h2>
+      				<p class="parrafo">
+      					
+      					Preguntas y frases que esta semana visitaron mi mente. 《Jesús tengo miedo》 "¿Cuando se va a terminar todo esto?" 《Quiero permanecer con vos》 《necesito paz en mi corazón.Ustedes creen en Dios; crean también en mí. En la casa de mi Padre hay muchos aposentos.
+
+      				</p>
+      				<a href="" class="leer-mas">leer mas</a><br><br>
+      			</section>
+      				<selection class="uno dos">
+      					<img src="img/jose2.jpg" width=" 250" height="150" >
+      				<h2>la buena semilla</h2>
+      				<p class="parrafo">
+      					
+      					> Todo aquel que invocare el nombre del Señor, será salvo.
+Romanos 10:13
+> En ningún otro hay salvación; porque no hay otro nombre (que el de Jesús) bajo el cielo, dado a los hombres, en que podamos ser salvos.
+Hechos 4:12EL NOMBRE QUE SALVA
+En el año 188
+      				</p>
+      				<a href="" class="leer-mas">leer mas</a><br><br>
+
+      				</section>
+      			<section class="uno">
+      				
+      				<img src="img/jose3.jpg" width="250" height=150" >
+      				<h2>adoracion y oracion</h2>
+      				<p class="parrafo">
+      					
+      					> Espera tú un poco para que te declare la palabra de Dios.
+1ra Samuel 9:27
+¡DETENGASE!
+El despertador suena; Juan salta de la cama, va corriendo a la ducha y luego se toma un café. Después de cuarenta y cinco minutos en un metro repleto de gente, llega a su trabajo.
+      				</p>
+      				<a href="" class="leer-mas">leer mas</a><br><br>
+      			</section>
+
+      		</section><!--/categorias-->
+
+      		<section id="info">
+
+      		<section id="izq">
+      			
+      			<p class="parrafo"> 
+      				<img src="img/jose5.jpg" align="left" width="150"classe="img">
+      				<h2>jesus te ama</h2>
+      				<p class="parrafo">
+      				 ¿A QUIÉN PIENSA VER EN EL PARAÍSO?
+Esta pregunta fue formulada por un periodista a un deportista, quien respondió: «A veces tengo miedo de encontrarme con gente que no merece estar ahí».
+El juicio que tenemos sobre los demás es personal: juzgamos a una persona según su apariencia, o por la manera cómo se comporta con nosotros. Algunos nos parecen más dignos que otros debido a su carácter o a su actividad humanitaria, por ejemplo. Algunos parecen egoístas, otros se dedican a hacer buenas obras.
+
+                    
+                    <br><br>Pero nuestro juicio es necesariamente superficial, pues nos es imposible conocer los motivos que mueven a los demás. Solo Dios conoce perfectamente el fondo de las cosas, y dará a cada uno según sus obras. “Dios traerá toda obra a juicio, juntamente con toda cosa encubierta, sea buena o sea mala” (Eclesiastés 12:1.Pero esto no es lo que cuenta, pues Jesús prometió el paraíso al malhechor crucificado. Según nuestra apreciación, este hombre no hubiese merecido el paraíso. Entonces, ¿por qué Jesús le abrió la entrada a ese lugar? 
+
+      			</p>
+      		</section>
+
+      		<section id="der">
+      			<h2>reuniones de domingo</h2>
+
+      			<iframe width="290" height="290" src="https://www.youtube.com/embed/4QD1gEP67Hc?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+      		</section><!--/info-->
+      		<footer>
+      			<p>
+      				(c) creado por jose andres peña - jp 2020<br>diseñado <a href="josecolmenares96@hotmail.com">jose</a>
+      			</p>
+      		</footer>
+
+    		
+    	</div>
+    </body>
+ </html>
